@@ -33,4 +33,4 @@ It is advised to reset any device before using it. To do this, switch ``in1`` to
 Now the inputs ``in2`` to ``in4`` can be used to put in the first number, and the inputs ``in5`` to ``in7`` the second number. For an example, let's multiply the numbers ``0100`` and ``0101`` which should yield 20.
 ![TT02 board select project](img/tt02_board_input_example.jpg)
 
-The output can be read as described in the introduction: ``1`` and ``4.`` are in hex. First convert them to binary and join, so ``0001 0100``, which is 20 in decimal. It works!
+The output can be read as described in the introduction: ``1`` and ``4.`` are in hex. First convert to binary and then join them to a full byte, e.g. ``0001 0100``, which is 20 in decimal. It works!
